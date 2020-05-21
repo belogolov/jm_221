@@ -38,6 +38,11 @@ public class MainApp {
             System.out.println();
         }
 
+        System.out.println("getting User by car name and series\n");
+        System.out.println(userService.getUserByCar("car3", 333));
+        System.out.println();
+       // System.out.println(userService.getUserByCar("car3", 444));
+
         context.close();
     }
 }
